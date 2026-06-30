@@ -1,0 +1,16 @@
+#include <iostream> 
+using namespace std; 
+void fazAlgo2() { 
+  int y = 10; 
+  cout << "fazAlgo2: y = " << y << endl;
+} 
+void fazAlgo() { 
+  int x = 5; 
+  fazAlgo2(); 
+  cout << "fazAlgo: x = " << x << endl;
+} 
+int main() { 
+  int a = 3, b = 4; 
+  fazAlgo(); 
+  cout << "main: a = " << a << ", b = " << b << endl; 
+} 
